@@ -68,13 +68,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				audi: {
-					red: '#BB0A21',
-					silver: '#C0C0C0',
+					orange: '#E8640A',
+					aluminum: '#A8B0B8',
+					silver: '#D0D4D8',
 					dark: '#0A0A0A',
-					charcoal: '#1A1A1A',
-					steel: '#2A2A2A',
-					mist: '#3A3A3A',
-					light: '#E8E8E8',
+					charcoal: '#141414',
+					steel: '#242424',
+					mist: '#363636',
+					light: '#ECEEF0',
 				}
 			},
 			borderRadius: {
