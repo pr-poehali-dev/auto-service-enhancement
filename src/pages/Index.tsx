@@ -98,7 +98,7 @@ export default function Index() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/95 backdrop-blur-sm border-b border-[#1E1E1E]">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
           <button onClick={() => scrollTo("hero")} className="flex items-center gap-3">
-            <img src={LOGO_URL} alt="Two Motors" className="h-9 w-auto object-contain" style={{ filter: 'brightness(1.1) contrast(1.05)' }} />
+            <img src={LOGO_URL} alt="Two Motors" className="h-9 w-auto object-contain" style={{ mixBlendMode: 'screen', filter: 'contrast(1.1) brightness(1.1)' }} />
           </button>
 
           <nav className="hidden lg:flex items-center gap-8">
